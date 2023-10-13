@@ -139,7 +139,7 @@ struct ccAllHitsRayResultCallback : public AllHitsRayResultCallback
 		return m_hitFractions;
 	}
 
-	void reset(int mask, bool queryTrigger)
+	void reset(unsigned int mask, bool queryTrigger)
 	{
 		m_collisionFilterMask = mask;
 		m_queryTrigger = queryTrigger;
